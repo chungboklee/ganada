@@ -459,6 +459,7 @@ hr {
 
 #service {
   position: relative;
+  margin-top:88px;
 }
 
 /* Container Outside Shape */
@@ -712,7 +713,7 @@ hr {
   overflow: hidden;
   position: relative;
   background-image:url(../img/contents/main-bg.png);
-  height: 100%;
+  width: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2278,4 +2279,14 @@ textarea {
 }
 .copyright .container{margin-bottom:20px;}
 .copyright-ganada p{padding-left:15px;text-align:left!important;font-size:10px!important;color:#a3b2fd!important;}
+}
+/* Big screen */
+@media (min-width: 1660px) {
+  .hero-area{
+  background-image:url(../img/contents/main-bg-bigscreen.png);
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
