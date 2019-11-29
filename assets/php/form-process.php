@@ -32,8 +32,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "email@gmail.com";
-$Subject = "New Message Received";
+$EmailTo = "contact@ganadaproject.com";
+$Subject = "Ganada Project Website - Contact Form";
 
 // prepare email body text
 $Body = "";
