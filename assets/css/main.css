@@ -104,7 +104,7 @@ a:not([href]):not([tabindex]) {
 
 .btn {
   font-size: 16px;
-  padding: 20px 33px;
+  padding: 8px 20px;
   cursor: pointer;
   font-weight: 400;
   font-family: 'Nanum Gothic', sans-serif;
@@ -372,21 +372,23 @@ hr {
 .feature-content-bg {
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
+  border-width:0.5px;
+  border-style:solid;
+  border-color:#6a82fb;
   padding-top: 33px;
   padding-right: 0px;
   padding-left:30px;
   padding-bottom:33px;
-  margin-bottom:20px;
-
+  margin-bottom:30px;
   background:rgba(255,255,255,0.88);
-  -webkit-box-shadow: -33px 8px 88px 0px rgba(106,130,251,0.22);
-  -moz-box-shadow: -33px 8px 88px 0px rgba(106,130,251,0.22);
-  box-shadow: -33px 8px 88px 0px rgba(106,130,251,0.22);
+  -webkit-box-shadow: -18px 8px 0px 0px rgba(106,130,251,1);
+  -moz-box-shadow: -18px 8px 0px 0px rgba(106,130,251,1);
+  box-shadow: -18px 8px 0px 0px rgba(106,130,251,1); 
 }
 .feature-item {
 
 }
-
+.feature-icon{margin-right:15px;}
 .feature-item .icon {
   float: left;
   width: 80px;
@@ -430,6 +432,11 @@ hr {
 }
 
 /* Services Item */
+  #services-for-nav{
+    padding-top:120px;
+    padding-bottom:120px;
+    background: #f9f9f9;
+  }
 .services-item {
   background: #fff;
   margin: 15px 0;
@@ -760,14 +767,18 @@ z-index:1;
 }
 
 /* Team Item */
+#team-for-nav{
+  padding-top:120px;
+  padding-bottom:120px;
+}
 .team-item:hover {
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+
 }
 
 .team-item {
   margin: 15px 0;
   border-radius: 50px;
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+  
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -777,9 +788,12 @@ z-index:1;
 .team-item .team-img {
   position: relative;
   width:auto;
-  height:300px;
+  height:180px;
   overflow: hidden;
   border-radius: 50px;
+}
+.team-img img{
+  height:100%;
 }
 
 .team-item .team-overlay {
@@ -828,14 +842,14 @@ z-index:1;
 }
 
 .team-item .overlay-social-icon .social-icons li a i {
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   background: #6a82fb;
   display: block;
   border-radius: 30px;
-  line-height: 36px;
+  line-height: 31px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -857,7 +871,6 @@ z-index:1;
 .team-item .info-text {
   padding: 15px 20px;
   background: #fff;
-  border-radius:50px;
 }
 
 .team-item .info-text h3 {
@@ -2092,20 +2105,35 @@ textarea {
   padding-bottom:33px;
   margin-bottom:20px;
 
-  background:rgba(255,255,255,0.88);
-  -webkit-box-shadow: 0px 8px 88px 0px rgba(106,130,251,0.22);
-  -moz-box-shadow: 0px 8px 88px 0px rgba(106,130,251,0.22);
-  box-shadow: 0px 8px 88px 0px rgba(106,130,251,0.22);
+  background:rgba(255,255,255,1);
+  -webkit-box-shadow: 0px 8px 0px 0px rgba(106,130,251,1);
+  -moz-box-shadow: 0px 8px 0px 0px rgba(106,130,251,1);
+  box-shadow: 0px 8px 0px 0px rgba(106,130,251,1); 
 }
   .feature-content{
 
   }
-  .team-item .team-img {
+  #services-for-nav{
+    padding-top:88px;
+    padding-bottom:88px;
+  }
+  #team-for-nav{
+    padding-top:88px;
+    padding-bottom:88px;
+  }
+.team-item .team-img {
   position: relative;
   width:auto;
   height:auto;
   overflow: hidden;
-  border-radius: 50px;
+  border-radius: 0px;
+  text-align:center;
+}
+
+.team-img img{
+  width:100%;
+  height:auto;
+  text-align:center;
 }
 }
 
@@ -2191,7 +2219,7 @@ textarea {
   }
   .btn {
   font-size: 12px;
-  padding: 15px 25px;
+  padding: 8px 25px;
   cursor: pointer;
   font-weight: 400;
   font-family: 'Nanum Gothic', sans-serif;
@@ -2235,8 +2263,8 @@ textarea {
     padding: 100px 0px 60px 0px;
   }
   #hero-area .contents .head-title {
-    font-size: 15px!important;
-    line-height: 25px!important;
+    font-size: 20px!important;
+    line-height: 30px!important;
     margin-bottom: 15px;
     letter-spacing:0px;
   }
@@ -2273,6 +2301,16 @@ textarea {
   .feature-thumb {
     padding: 10px;
   }
+
+.team-img img{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+.team-item .info-text {
+  padding: 15px 0px;
+  background: #fff;
+}
   .testimonial-item {
     padding: 0;
   }
@@ -2345,4 +2383,10 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
 }
+}
+
+/* Smaller than mobile or only mobile */
+@media (max-width: 575px) {
+#team-for-nav{display:none;}
+.hideforsmallscreen{display:none;}
 }

@@ -16,6 +16,7 @@
 <title>가나다 프로젝트</title>
 
 <!-- Icon -->
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 <link rel="stylesheet" href="assets/fonts/line-icons.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Animation -->
@@ -54,16 +55,16 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#feature-for-nav">
-                  기능
+                  신체치수
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services">
+                <a class="nav-link" href="#services-for-nav">
                   서비스
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">
+              <li class="nav-item hideforsmallscreen">
+                <a class="nav-link" href="#team-for-nav">
                   팀
                 </a>
               </li>
@@ -127,29 +128,29 @@
             <div class="feature-thumb">
               <div class="feature-item wow fadeInDown feature-content-bg" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="icon">
-                  <i class="lni-microphone"></i>
+                  <i class="material-icons-outlined feature-icon">photo_camera</i>
                 </div>
                 <div class="feature-content">
-                  <h3>전신사진 한장 촬영</h3>
+                  <h3>전신사진 <section style="display:inline-block;color:#6a82fb;">한장</section> 촬영</h3>
                   <p>카메라를 정면으로 보고 서있어주세요.<br>한장만 찍으면 끝난답니다.</p>
                 </div>
               </div>
               <div class="feature-item wow fadeInDown feature-content-bg" data-wow-duration="1000ms" data-wow-delay="500ms">
                 <div class="icon">
-                  <i class="lni-users"></i>
+                 <i class="material-icons-outlined feature-icon" style="font-size:50px;">accessibility_new</i>
                 </div>
                 <div class="feature-content">
-                  <h3>내 신체포인트 알려주기</h3>
-                  <p>간단하게 슬라이더를 이용하여 <br>신체부위의 위치를 알려주세요.</p>
+                  <h3>간단한 <section style="display:inline-block;color:#6a82fb;">바디 슬라이더</section></h3>
+                  <p>사진속 슬라이더를 이용하여 <br>신체부위의 위치를 알려주세요.</p>
                 </div>
               </div>
               <div class="feature-item wow fadeInDown feature-content-bg" data-wow-duration="1000ms" data-wow-delay="700ms">
                 <div class="icon">
-                  <i class="lni-medall-alt"></i>
+                  <i class="material-icons-outlined feature-icon">thumb_up</i>
                 </div>
                 <div class="feature-content">
                   <h3>끝</h3>
-                  <p>신체 부위들의 위치를 짚어주면<br>웨어비가 내 신체치수를 측정합니다.</p>
+                  <p>웨어비가 내 신체치수를 측정합니다.<br>나만의 사이즈카드가 생성되었어요.</p>
                 </div>
               </div>
             </div>
@@ -161,11 +162,12 @@
     <!-- Feature Section End -->
 
     <!-- Services Section Start -->
-    <section id="services" class="section-padding bg-gray">
+    <div id="services-for-nav">
+    <section id="services" class="section-padding">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Services</h2>
-          <p>A desire to help and empower others between community contributors in technology <br> began to grow in 2020.</p>
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">웨어비로 무엇을 할 수 있을까요?</h2>
+          <p>신체치수를 측정하고 나만의 사이즈카드가 생겼어요. <br>이제 사이즈카드를 가지고 편리해진 패션쇼핑을 즐겨보세요.</p>
         </div>
         <div class="row">
           <!-- Services item -->
@@ -175,8 +177,8 @@
                 <i class="lni-pencil"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Content Writing</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                <h3><a href="#">사이즈카드</a></h3>
+                <p>언제든지 추가로 생성할 수 있습니다.<br>자신의 신체변화를 기록하세요.</p>
               </div>
             </div>
           </div>
@@ -187,8 +189,8 @@
                 <i class="lni-briefcase"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Digital Marketing</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                <h3><a href="#">의류의 사이즈 vs 내 사이즈</a></h3>
+                <p>온라인에서 입어볼 수 없었던 의류들을<br>웨어비를 통해 입어보는 효과를 느껴보세요.</p>
               </div>
             </div>
           </div>
@@ -199,49 +201,14 @@
                 <i class="lni-cog"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Web Development</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-              </div>
-            </div>
-          </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-              <div class="icon">
-                <i class="lni-mobile"></i>
-              </div>
-              <div class="services-content">
-                <h3><a href="#">IOS & Android</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-              </div>
-            </div>
-          </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
-              <div class="icon">
-                <i class="lni-layers"></i>
-              </div>
-              <div class="services-content">
-                <h3><a href="#">UI/UX Design</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
-              </div>
-            </div>
-          </div>
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
-              <div class="icon">
-                <i class="lni-rocket"></i>
-              </div>
-              <div class="services-content">
-                <h3><a href="#">Branding & Identity</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                <h3><a href="#">나를 위한 의류 검색</a></h3>
+                <p>지금까지 내가 원하는 의류를 찾기 힘들었죠?<br>웨어비의 검색은 패션에 최적화 되어있습니다.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </section>
     <!-- Services Section End -->
 
@@ -262,6 +229,7 @@
     End Video Promo Section -->
 
     <!-- Team Section Start -->
+    <div id="team-for-nav">
     <section id="team" class="section-padding text-center">
       <div class="container">
         <div class="section-header text-center">
@@ -285,7 +253,7 @@
                 </div>
               </div>
               <div class="info-text">
-                <h3><a href="#">이충복</a></h3>
+                <h3><a href="https://chungboklee.github.io" target="_blank">이충복</a></h3>
                 <p>CEO / 기획·디자인 총괄</p>
               </div>
             </div>
@@ -409,6 +377,7 @@
         </div>
       </div>
     </section>
+  </div>
     <!-- Team Section End -->
 
     <!-- Counter Section Start -->
