@@ -1884,7 +1884,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .feature-92912 p {
-    line-height: 1.3; }
+    line-height: 1.3; font-size:12px;}
   .feature-92912:hover, .feature-92912.active {
     border: 2px solid #6a82fb;
     background-color: transparent; }
@@ -1920,9 +1920,12 @@ h1, h2, h3, h4, h5,
     display: block !important; } }
 
 .site-logo-footer a {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: 900 !important; }
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight:900!important;
+    letter-spacing:2px;
+    color:#2044f9;
+  }
 
 .links li {
   margin-bottom: 10px; }
