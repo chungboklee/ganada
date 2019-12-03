@@ -803,6 +803,21 @@ h1, h2, h3, h4, h5,
       height: 100%;
       content: "";
       right: 0;
+      background: url('');
+      background-repeat: no-repeat;
+      background-size:66%;
+      background-position:bottom;
+      background-color: #fdf1b5;
+      border-bottom-left-radius:88px;}
+
+      .site-section-cover.index-half-bg {
+    position: relative; }
+    .site-section-cover.index-half-bg:before {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      content: "";
+      right: 0;
       background: url('../images/index-main.png');
       background-repeat: no-repeat;
       background-size:66%;
@@ -818,6 +833,7 @@ h1, h2, h3, h4, h5,
     height: calc(100vh - 196px);
     min-height: 677px; }
     @media (max-width: 991.98px) {
+      .site-section-cover.index-half-bg:before {height:88%;background-size:100%;}
       .site-section-cover.half-bg:before {height:88%;background-size:100%;}
       .site-section-cover,
       .site-section-cover .container > .row {
@@ -1814,13 +1830,13 @@ h1, h2, h3, h4, h5,
   font-size: 18px;
   font-style: italic; }
 
-.more-29291, .more-92913 {
+.btn-underlined, .more-92913 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 900 !important;
   position: relative;
   padding-bottom: 7px; }
-  .more-29291:before, .more-92913:before {
+  .btn-underlined:before, .more-92913:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1872,7 +1888,7 @@ h1, h2, h3, h4, h5,
     color: #2044f9;
     padding-bottom: 10px;}
   .feature-92912 .wrap-icon {
-    color: rgba(59, 78, 218, 0.2);
+    color: rgba(59, 78, 218, 0.1);
     font-size: 7rem;
     position: absolute;
     left: 0;
