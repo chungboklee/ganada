@@ -307,7 +307,9 @@ h1, h2, h3, h4, h5,
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
-
+.index-site-section-3{
+  padding: 2.5em 0;}
+  @media(min-width:768px){.index-site-section-3{padding:5em 0;}}
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
@@ -849,7 +851,7 @@ animation: AnimationName 30s ease infinite;}
       height: 100%;
       content: "";
       right: 0;
-      background: url('../images/index-main.png');
+      background: url('../images/services/index-main.gif');
       background-repeat: no-repeat;
       background-size:66%;
       background-position:bottom;
@@ -905,6 +907,10 @@ animation: AnimationName 30s ease infinite;}
     @media (max-width: 991.98px) {
       .site-section-main-text{
       }}
+.index-site-section-3{padding:7em 0;margin-bottom:188px;}
+@media (max-width:991.98px){.index-site-section-3{padding: 3rem 0;margin-bottom:50px;}
+}
+ 
 .site-section {
   padding: 7rem 0; }
   @media (max-width: 991.98px) {
@@ -1907,7 +1913,7 @@ animation: AnimationName 30s ease infinite;}
 
 .feature-92912 {
   background-color: #fdf1b5;
-  padding: 50px;  
+  padding: 66px 25px;  
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
