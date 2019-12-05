@@ -619,6 +619,7 @@ h1, h2, h3, h4, h5,
           opacity: 1; }
 
 .site-mobile-menu {
+  overflow:hidden;
   width: 300px;
   position: fixed;
   right: 0;
@@ -670,7 +671,7 @@ h1, h2, h3, h4, h5,
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
           text-decoration: none; }
   .site-mobile-menu .site-mobile-menu-body {
-    overflow-y: scroll;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     position: relative;
     padding: 0 20px 20px 20px;
@@ -796,14 +797,15 @@ h1, h2, h3, h4, h5,
 
 /* Blocks */
 .bg-tertiary {
-  margin-top:80px;
+  margin:30px 0;
+  padding:88px 0;
+  border-radius:50px;
   background: linear-gradient(270deg, #f3f4f5, #c3c8cd);
   background-size: 400% 400%;
-
--webkit-animation: AnimationName 30s ease infinite;
--moz-animation: AnimationName 30s ease infinite;
--o-animation: AnimationName 30s ease infinite;
-animation: AnimationName 30s ease infinite;}
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;}
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
@@ -825,6 +827,10 @@ animation: AnimationName 30s ease infinite;}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+ @media (max-width: 991.98px) {
+  .bg-tertiary{border-radius:30px;}
+ }
 
 .site-section-cover {
   position: relative;
@@ -950,14 +956,14 @@ animation: AnimationName 30s ease infinite;}
     @media (max-width: 991.98px) {
       .site-section-main-text{
       }}
-.index-site-section-3{padding:7em 0;margin-bottom:188px;}
+.index-site-section-3{padding:7em 0;margin-bottom:88px;}
 @media (max-width:991.98px){.index-site-section-3{padding: 3rem 0;margin-bottom:50px;}
 }
 .services-main-font{letter-spacing:12px;}
 .services-main-img{
   width:10%;height:10%;position:block;float:left;margin-right:15px;}
 .site-section {
-  padding: 7rem 0; }
+  padding: 6rem 0; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 3rem 0; } }
@@ -1097,7 +1103,7 @@ animation: AnimationName 30s ease infinite;}
     max-width: 130px !important;
     margin-left: auto;
     margin-right: auto; }
-
+.social-icons a{color:#2043f9;}
 .block-social-1 > a {
   display: inline-block;
   width: 30px;
@@ -1852,6 +1858,11 @@ animation: AnimationName 30s ease infinite;}
 .quote-29281 {
   border-left: 3px solid #2044f9;
   padding-left: 30px; }
+
+.quote-about-company{
+  border-left: 3px solid #2044f9;
+  padding-left: 30px; }
+.quote-about-company p{color:#6a82fb;}
 
 .social_29128 a {
   display: inline-block;
