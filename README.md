@@ -1,3 +1,3 @@
-# ganada 
-- (This "ganada" repository is not for public use.)
+# ganada (Archived Version)
+(This "ganada" repository is not for public use.)
 ![Image of Yaktocat](https://chungboklee.github.io/ganada/images/socialshare.png)
