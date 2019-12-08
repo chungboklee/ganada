@@ -336,7 +336,7 @@ padding-bottom:1em;}
   }
   .site-section.site-section-sm {
     padding: 4em 0; }
-
+.about-team-name-eng{font-size:2rem!important;vertical-align:bottom;}
 .site-footer {
   padding: 4em 0;
   background: #000; }
@@ -903,6 +903,21 @@ animation: AnimationName 20s ease infinite;}
   background-color: #f3f4f5;
   border-bottom-left-radius:333px;}
 
+.site-section-cover.about-teammember-half-bg {
+  position: relative; }
+.site-section-cover.about-teammember-half-bg:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  content: "";
+  right: 0;
+  background: url('../images/team/cblee.png');
+  background-repeat: no-repeat;
+  opacity:0.88;
+  background-size:50%;
+  background-position:center center;
+  border-bottom-left-radius:0px;}
+
 .site-section-cover.services-half-bg{
   position:relative; }
 .site-section-cover.services-half-bg:before {
@@ -958,6 +973,7 @@ animation: AnimationName 20s ease infinite;}
   .site-section-cover.half-bg:before {height:88%;background-size:100%;border-bottom-left-radius:88px;}
   .site-section-cover.index-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.about-half-bg:before {height:88%;background-size:100%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg:before {height:88%;background-size:100%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.services-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.sub-services-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.contact-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
