@@ -248,6 +248,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   color: #000; }
 
+.visibility-hidden{visibility:hidden;}
 .border-2 {
   border-width: 2px; }
 
@@ -337,6 +338,7 @@ padding-bottom:1em;}
   .site-section.site-section-sm {
     padding: 4em 0; }
 .about-team-name-eng{font-size:2rem!important;vertical-align:bottom;}
+@media (max-width: 991.98px) {.about-team-name-eng{font-size:14px!important;}}
 .site-footer {
   padding: 4em 0;
   background: #000; }
@@ -914,7 +916,7 @@ animation: AnimationName 20s ease infinite;}
   background: url('../images/team/cblee.png');
   background-repeat: no-repeat;
   opacity:0.88;
-  background-size:50%;
+  background-size:66%;
   background-position:center center;
   border-bottom-left-radius:0px;}
 
@@ -972,8 +974,8 @@ animation: AnimationName 20s ease infinite;}
 @media (max-width: 991.98px) {
   .site-section-cover.half-bg:before {height:88%;background-size:100%;border-bottom-left-radius:88px;}
   .site-section-cover.index-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
-  .site-section-cover.about-half-bg:before {height:88%;background-size:100%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
-  .site-section-cover.about-teammember-half-bg:before {height:88%;background-size:100%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg:before {height:88%;background-size:50%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.services-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.sub-services-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.contact-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
@@ -1920,7 +1922,7 @@ animation: AnimationName 20s ease infinite;}
 .quote-about-company{
   border-left: 3px solid #2044f9;
   padding-left: 30px; }
-.quote-about-company p{color:#6a82fb;}
+.quote-about-company p{color:#111314;}
 
 .social_29128 a {
   display: inline-block;
