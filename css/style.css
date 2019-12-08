@@ -908,15 +908,90 @@ animation: AnimationName 20s ease infinite;}
   background-color: #f3f4f5;
   border-bottom-left-radius:333px;}
 
-.site-section-cover.about-teammember-half-bg {
+.site-section-cover.about-teammember-half-bg-cblee {
   position: relative; }
-.site-section-cover.about-teammember-half-bg:before {
+.site-section-cover.about-teammember-half-bg-cblee:before {
   position: absolute;
   width: 50%;
   height: 100%;
   content: "";
   right: 0;
   background: url('../images/team/cblee.png');
+  background-repeat: no-repeat;
+  opacity:0.88;
+  background-size:66%;
+  background-position:center center;
+  border-bottom-left-radius:0px;}
+
+.site-section-cover.about-teammember-half-bg-hjshin {
+  position: relative; }
+.site-section-cover.about-teammember-half-bg-hjshin:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  content: "";
+  right: 0;
+  background: url('../images/team/hjshin.png');
+  background-repeat: no-repeat;
+  opacity:0.88;
+  background-size:66%;
+  background-position:center center;
+  border-bottom-left-radius:0px;}
+
+.site-section-cover.about-teammember-half-bg-jwyoon {
+  position: relative; }
+.site-section-cover.about-teammember-half-bg-jwyoon:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  content: "";
+  right: 0;
+  background: url('../images/team/jwyoon.png');
+  background-repeat: no-repeat;
+  opacity:0.88;
+  background-size:66%;
+  background-position:center center;
+  border-bottom-left-radius:0px;}
+
+.site-section-cover.about-teammember-half-bg-ysjung {
+  position: relative; }
+.site-section-cover.about-teammember-half-bg-ysjung:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  content: "";
+  right: 0;
+  background: url('../images/team/ysjung.png');
+  background-repeat: no-repeat;
+  opacity:0.88;
+  background-size:66%;
+  background-position:center center;
+  border-bottom-left-radius:0px;}
+
+.site-section-cover.about-teammember-half-bg-jhlee {
+  position: relative; }
+.site-section-cover.about-teammember-half-bg-jhlee:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  content: "";
+  right: 0;
+  background: url('../images/team/jhlee.png');
+  background-repeat: no-repeat;
+  opacity:0.88;
+  background-size:66%;
+  background-position:center center;
+  border-bottom-left-radius:0px;}
+
+.site-section-cover.about-teammember-half-bg-jhkwon {
+  position: relative; }
+.site-section-cover.about-teammember-half-bg-jhkwon:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  content: "";
+  right: 0;
+  background: url('../images/team/jhkwon.png');
   background-repeat: no-repeat;
   opacity:0.88;
   background-size:66%;
@@ -978,7 +1053,11 @@ animation: AnimationName 20s ease infinite;}
   .site-section-cover.half-bg:before {height:88%;background-size:100%;border-bottom-left-radius:88px;}
   .site-section-cover.index-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.about-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
-  .site-section-cover.about-teammember-half-bg:before {height:88%;background-size:66%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg-cblee:before {height:88%;background-size:66%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg-hjshin:before {height:88%;background-size:66%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg-jwyoon:before {height:88%;background-size:66%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg-ysjung:before {height:88%;background-size:66%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
+  .site-section-cover.about-teammember-half-bg-jhlee:before {height:88%;background-size:66%;background-position: center right;width:88%;border-bottom-left-radius:88px;opacity:0.8;}  
   .site-section-cover.services-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.sub-services-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
   .site-section-cover.contact-half-bg:before {height:88%;background-size:66%;width:88%;border-bottom-left-radius:88px;opacity:0.8;}
