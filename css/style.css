@@ -676,9 +676,9 @@ padding-bottom:1em;}
 
 /* Blocks */
 .bg-tertiary {
-  margin:30px 0;
-  padding:88px 0;
-  border-radius:50px;
+margin:30px 0;
+padding:88px 0;
+border-radius:50px;
 background: linear-gradient(316deg, #f3f4f5, #c8cdd1, #ffffff);
 background-size: 600% 600%;
 
@@ -2067,7 +2067,43 @@ background-color: transparent; }
 transform: translate(45%, -50%); 
 opacity:1;}
 
+.section-b2b{
+margin:30px 0;
+padding:188px 0;
+border-radius:50px;
+background-image: url('../images/index-main.png');
+background-position:right bottom;
+background-repeat: no-repeat;
+background-color: rgba(243,244,245,1);
+background-size: 50%;
+opacity:0.77;
+}
 
+.next-icon{
+font-size:3.3rem;
+color:#2044f9;
+vertical-align:center;
+text-align:left;
+}
+
+.sextion-b2b:hover{
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.22s;
+}
+  @keyframes fadeInOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.77;
+  }
+}
+@media (max-width: 991.98px) {
+  .section-b2b{border-radius:30px;padding:80px;background-image:none;}
+}
 
  /*About-Team Profile Box*/
 .feature-about{background-color: #f3f4f5;
