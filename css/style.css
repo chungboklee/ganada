@@ -744,7 +744,7 @@ animation: AnimationName 20s ease infinite;}
   height: 100%;
   content: "";
   right: 0;
-  background: url('../images/index-main.png');
+  background: url('../images/index-main.gif');
   background-repeat: no-repeat;
   background-size:66%;
   background-position:bottom;
@@ -759,6 +759,10 @@ animation: AnimationName 20s ease infinite;}
   height: 100%;
   content: "";
   right: 0;
+  background: url('../images/about/about-main.gif');
+  background-repeat: no-repeat;
+  background-size:66%;
+  background-position:bottom;
   background-color: #f3f4f5;
   border-bottom-left-radius:333px;}
 
@@ -886,9 +890,9 @@ animation: AnimationName 20s ease infinite;}
   height: 100%;
   content: "";
   right: 0;
-  background: url('');
+  background: url('../images/contact-main.gif');
   background-repeat: no-repeat;
-  background-size:66%;
+  background-size:62%;
   background-position:bottom;
   background-color: #f3f4f5;
   border-bottom-left-radius:333px;}
