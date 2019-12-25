@@ -145,13 +145,14 @@ overflow-wrap: keep-all!important;
       color: #000; }
 
 .button-big{
-color:#fff!important;
-background:#6a82fb; 
+color:#111314!important;
+background:transparent; 
 font-size: 14px;   
 position: relative;
-padding: 10px 20px;
+padding: 5px 0px;
 margin-bottom: 7px;
-border-radius:30px; 
+
+border-bottom: 1px solid #111314; 
 }
 .button-big:before {
 position: absolute;
