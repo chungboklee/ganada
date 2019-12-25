@@ -37,6 +37,7 @@ overflow-wrap: keep-all!important;
 }
 .font-primary{color:#2044f9!important; }
 .font-services-primary{color:#111314!important;}
+.font-contact-primary {color:#111314!important;}
 .font-weight-primary{font-weight:800!important; }
 .font-weight-2nd{font-weight:700!important;}
 .font-weight-regular{font-weight:500!important;}
@@ -118,15 +119,6 @@ overflow-wrap: keep-all!important;
 .text-black {
   color: #000 !important; }
 
-.bg-black {
-  background: #000 !important; }
-
-.color-black-opacity-5 {
-  color: rgba(0, 0, 0, 0.5); }
-
-.color-white-opacity-5 {
-  color: rgba(255, 255, 255, 0.5); }
-
 .btn {
   border-radius: 30px;
   padding: 10px 20px;
@@ -172,14 +164,14 @@ background: #2044f9; }
   background: #000; }
 
 .form-control {
-  height: 55px;
-  background: #fff !important;
-  font-family: "Roboto", sans-serif; }
-  .form-control:active, .form-control:focus {
-    border-color: #3b4eda; }
-  .form-control:hover, .form-control:active, .form-control:focus {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+height: 55px;
+background: #fff !important;
+font-family: "Roboto", sans-serif; }
+.form-control:active, .form-control:focus {
+border-color: #3b4eda; }
+.form-control:hover, .form-control:active, .form-control:focus {
+-webkit-box-shadow: none !important;
+box-shadow: none !important; }
 .index-site-section-3{
   padding: 2.5em 0;}
   @media(min-width:768px){.index-site-section-3{padding:5em 0;}}
