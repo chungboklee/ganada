@@ -29,6 +29,8 @@ overflow-wrap: keep-all!important;
 }
 h2{font-size:18px;}
 @media (max-width: 768px) {h2{font-size:14px;}}
+
+p{font-family: 'Nanum Gothic', sans-serif!important;}
 b{font-weight:800!important;}
 
 .font-breaks{
@@ -190,27 +192,6 @@ padding-bottom:1em;}
 @media (max-width: 991.98px) {
 .about-smalltitle-eng{font-size:14px!important;}
 .about-smalltitle-kr{font-size:14px!important;}}
-.site-footer {
-  padding: 4em 0;
-  background: #000; }
-  @media (min-width: 768px) {
-    .site-footer {
-      padding: 8em 0; } }
-  .site-footer .border-top {
-    border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
-  .site-footer p {
-    color: #fff; }
-  .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
-    color: #fff; }
-  .site-footer a {
-    color: rgba(255, 255, 255, 0.5); }
-    .site-footer a:hover {
-      color: white; }
-  .site-footer ul li {
-    margin-bottom: 10px; }
-  .site-footer .footer-heading {
-    font-size: 16px;
-    color: #fff; }
 
 @media (max-width: 991.98px) {
   .img-md-fluid {
@@ -1287,13 +1268,6 @@ padding-bottom:1em;}
       width: 15px;
       background: #3b4eda; }
 
-.footer-suscribe-form .form-control {
-  color: #000;}
-  .footer-suscribe-form .form-control:hover, .footer-suscribe-form .form-control:active, .footer-suscribe-form .form-control:focus {
-    color: #000 !important;}
-
-.footer-suscribe-form .btn {
-  color: #fff; }
 
 .ftco-blocks-cover-1 .ftco-service-image-1 {
   margin-top: -70px;
