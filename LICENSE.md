@@ -1,6 +1,32 @@
-Attribution-ShareAlike 4.0 International
+The content of this project itself is licensed under the Creative Commons Attribution 3.0[2] Unported license, 
+and the underlying source code used to format and display the website is licensed under the MIT license[1].
+
+[1] MIT License :: 
+Source code used to display ganadaproject.com
+
+Copyright (c) [2020] [Ganada Project]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this code and associated documentation files (the "Code"), to deal
+in the Code without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Code, and to permit persons to whom the Code is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Code.
+
+THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS IN THE CODE.
 
 =======================================================================
+
+[2] Attribution-ShareAlike 4.0 International :: 
+Digital contents(graphics,icons,vectors,photography,video) displayed in ganadaproject.com
 
 Creative Commons Corporation ("Creative Commons") is not a law firm and
 does not provide legal services or legal advice. Distribution of
@@ -52,10 +78,8 @@ exhaustive, and do not form part of our licenses.
      for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
-=======================================================================
 
-Creative Commons Attribution-ShareAlike 4.0 International Public
-License
+Creative Commons Attribution-ShareAlike 4.0 International Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree
 to be bound by the terms and conditions of this Creative Commons
