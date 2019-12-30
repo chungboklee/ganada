@@ -180,6 +180,16 @@ box-shadow: none !important; }
 .site-section-about{
 padding-top:6em;
 padding-bottom:1em;}
+.site-section-services{
+margin-top:6em;
+padding-top:2em;
+padding-bottom:2em;
+margin-bottom:2em;
+background:#f3f4f5;}
+.site-section-services img{
+  height:100%;
+  width:100%;
+}
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
@@ -869,7 +879,9 @@ padding-bottom:1em;}
   padding: 6rem 0; }
   @media (max-width: 991.98px) {
     .site-section { padding: 3rem 0; } 
-    .site-section-about{padding:3rem 0;} }
+    .site-section-about{padding:3rem 0;} 
+    .site-section-services{padding:3rem 0;} 
+  }
 
 .block-heading-1 span {
   text-transform: uppercase;
@@ -1921,6 +1933,28 @@ padding-bottom:1em;}
       transform: translate(10%, -50%); }
 
 
+.services-main-row{
+background:#fff;
+padding: 20px 30px;
+
+margin-bottom:30px;
+border-radius:30px;
+word-break: keep-all!important;
+overflow-wrap: keep-all!important;
+text-align:left;
+font-size:14px;
+}
+.services-main-row h2{
+  font-family: 'Nanum Gothic', sans-serif!important;
+  color:#2044f9;
+}
+.services-main-row p{
+  font-family: 'Nanum Gothic', sans-serif!important;
+  color:#111314;
+}
+@media (max-width: 991.98px){
+
+}
 
  /*Service Features Box*/
 .feature-service{
