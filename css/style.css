@@ -792,7 +792,7 @@ background:#f3f4f5;}
   height: 100%;
   content: "";
   right: 0;
-  background-color: rgba(0,0,0,0);
+  background-color: #f3f4f5;
   border-bottom-left-radius:333px;}
 
 .site-section-cover.contact-half-bg{
