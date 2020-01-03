@@ -31,7 +31,7 @@ h2{font-size:18px;}
 @media (max-width: 768px) {h2{font-size:14px;}}
 
 p{font-family: 'Nanum Gothic', sans-serif!important;}
-b{font-weight:800!important;}
+b{font-weight:800!important;margin-bottom:0!important;}
 
 .font-breaks{
 word-break: keep-all!important;
@@ -1943,6 +1943,9 @@ word-break: keep-all!important;
 overflow-wrap: keep-all!important;
 text-align:left;
 font-size:14px;
+-webkit-box-shadow: 0px 10px 20px 0px rgba(136,146,156,0.2);
+-moz-box-shadow: 0px 10px 20px 0px rgba(136,146,156,0.2);
+box-shadow: 0px 10px 20px 0px rgba(136,146,156,0.2);
 }
 .services-main-row h2{
   font-family: 'Nanum Gothic', sans-serif!important;
