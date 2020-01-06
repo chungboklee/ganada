@@ -37,7 +37,7 @@ b{font-weight:800!important;}
 word-break: keep-all!important;
 overflow-wrap: keep-all!important;
 }
-.font-primary{color:#2044f9!important; }
+.font-primary{color:#111314!important; }
 .font-services-primary{color:#111314!important;}
 .font-contact-primary {color:#111314!important;}
 .font-weight-primary{font-weight:800!important; }
@@ -303,6 +303,7 @@ background:#f3f4f5;}
       text-decoration: none !important;
       display: inline-block; 
       font-family: 'Roboto', sans-serif;
+      text-transform: lowercase;
       font-weight:500;}
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block; }
@@ -423,7 +424,8 @@ background:#f3f4f5;}
   box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out; }
+  transition: .3s all ease-in-out; 
+text-transform: lowercase;}
 .offcanvas-menu .site-mobile-menu {
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
@@ -454,7 +456,7 @@ background:#f3f4f5;}
   margin-left: 0px; }
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a {
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: lowercase; }
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a img {
   max-width: 70px; }
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
@@ -866,9 +868,18 @@ background:#f3f4f5;}
     color: #fff; }
   .site-section-main-text{
     margin:0; }
+  .site-section-main-text h2{
+    font-family: 'Nanum Gothic', sans-serif!important;
+    font-size:1rem;}
+  .site-section-main-text h1{
+    font-family: 'Nanum Gothic', sans-serif!important;
+    font-size:2rem;
+  }
     @media (max-width: 991.98px) {
       .site-section-main-text{
       }}
+  }
+  }
 .index-site-section-3{padding:7em 0;margin-bottom:88px;}
 @media (max-width:991.98px){.index-site-section-3{padding: 3rem 0;margin-bottom:50px;}
 }
@@ -882,7 +893,6 @@ background:#f3f4f5;}
     .site-section-about{padding:3rem 0;} 
     .site-section-services{padding:3rem 0;} 
   }
-
 .block-heading-1 span {
   text-transform: uppercase;
   font-size: 12px;
@@ -1884,11 +1894,11 @@ background:#f3f4f5;}
 }
 
 .media-29101 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Nanum Gothic', sans-serif!important;
-  font-weight: 900 !important; }
+ color:#111314;}
   .media-29101 h3 a {
-    color: #6c757d; }
+    color: #111314; }
 
 /*Index-Wearbe 3 types of services box*/
 .feature-index{background-color: #f3f4f5;
@@ -2018,6 +2028,7 @@ padding: 88px 25px;
 margin-bottom: 30px;
 position: relative;
 overflow: hidden;
+border: 3px solid #f3f4f5;
 border-radius:30px;
 -webkit-transition: .3s all ease;
 -o-transition: .3s all ease;
@@ -2062,7 +2073,9 @@ transform: translate(40%, -50%); }
 .feature-service-b2b p {
 line-height: 1.3; font-size:12px;z-index:5;}
 .feature-service-b2b:hover, .feature-service-b2b.active {
-background-color: transparent; }
+background-color: transparent;
+border-radius:30px;
+border: 3px solid #f3f4f5; }
 .feature-service-b2b:hover .wrap-icon, .feature-service-b2b.active .wrap-icon {
 -webkit-transform: translate(39%, -50%);
 -ms-transform: translate(39%, -50%);
@@ -2097,7 +2110,7 @@ padding: 66px 25px;
 margin-bottom: 30px;
 position: relative;
 overflow: hidden;
-border: 2px solid transparent;
+border: 3px solid transparent;
 border-radius:30px;
 -webkit-transition: .3s all ease;
 -o-transition: .3s all ease;
@@ -2111,7 +2124,7 @@ color: #2044f9;
 padding-bottom: 10px;
 }
 .feature-about .wrap-icon {
-color: rgba(59, 78, 218, 0.1);
+color: rgb(59, 78, 218);
 z-index:-9;
 font-size: 7rem;
 position: absolute;
@@ -2130,7 +2143,7 @@ opacity:0.88;
 .feature-about p {
 line-height: 1.3; font-size:12px;z-index:5;}
 .feature-about:hover, .feature-about.active {
-border: 2px solid #6a82fb;
+border: 3px solid #f3f4f5;
 background-color: transparent; 
 }
 .feature-about:hover .wrap-icon, .feature-about.active .wrap-icon {
@@ -2157,6 +2170,9 @@ font-weight:900!important;
 letter-spacing:2px;
 color:#2044f9;
 }
+.footer li a {color:#111314;
+text-transform: lowercase;
+font-weight:500;}
 
 .links li {
 margin-bottom: 10px; }
