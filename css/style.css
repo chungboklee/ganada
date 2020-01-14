@@ -276,15 +276,12 @@ background:#f3f4f5;}
 .site-navbar .site-logo {
   margin: 0;
   padding:0;
-  font-size: 1.7rem; 
-  font-family: 'Raleway', sans-serif;
-  font-weight:900;
-  letter-spacing:2px;
-}
+ }
 .site-navbar .site-logo a {
   text-transform: lowercase;
   color: #111314;
 }
+.site-navbar .site-logo img{width:100px;}
   @media (max-width: 991.98px) {
   .site-navbar .site-logo {
     margin: 0 0 0 -15px;
@@ -298,12 +295,12 @@ background:#f3f4f5;}
     padding: 0;
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #2044f9 !important; }
+      color: #111314 !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; 
       font-family: 'Roboto', sans-serif;
-      text-transform: lowercase;
+      
       font-weight:500;}
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block; }
@@ -311,13 +308,13 @@ background:#f3f4f5;}
         margin-left: 15px;
         margin-right: 15px;
         padding: 20px 20px;
-        color: #2044f9 !important;
+        color: #111314 !important;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #2044f9a; }
+          color: #111314; }
       .site-navbar .site-navigation .site-menu > li.active > a {
-        color: #2044f9 !important; }
+        color: #111314 !important; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -425,7 +422,7 @@ background:#f3f4f5;}
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out; 
-text-transform: lowercase;}
+}
 .offcanvas-menu .site-mobile-menu {
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
@@ -873,13 +870,11 @@ text-transform: lowercase;}
     font-size:1rem;}
   .site-section-main-text h1{
     font-family: 'Nanum Gothic', sans-serif!important;
-    font-size:2rem;
+    font-size:3rem;
   }
     @media (max-width: 991.98px) {
-      .site-section-main-text{
-      }}
-  }
-  }
+      .site-section-main-text h1{font-size:2rem;}
+    }
 .index-site-section-3{padding:7em 0;margin-bottom:88px;}
 @media (max-width:991.98px){.index-site-section-3{padding: 3rem 0;margin-bottom:50px;}
 }
@@ -1454,7 +1449,7 @@ text-transform: lowercase;}
           text-align: right; }
     .item-1 .item-1-contents h3 {
       position: relative;
-      color: #3b4eda;
+      color: #111314;
       padding-bottom: 30px;
       margin-bottom: 30px; }
       .item-1 .item-1-contents h3:after {
@@ -1463,7 +1458,7 @@ text-transform: lowercase;}
         content: "";
         width: 40px;
         height: 2px;
-        background: #3b4eda;
+        background: #111314;
         position: absolute; }
 
 .how-it-works .step {
